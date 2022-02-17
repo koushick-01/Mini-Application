@@ -14,9 +14,9 @@ class splitwise {
     static List<String> userfriend = new ArrayList<>();//user friend
 
     public static void add(){
-        username.add("vinith");
-        usermail.add("vinith@gmail.com");
-        userpass.add("1234");
+        username.add("koushick");
+        usermail.add("koushickkrishnan@gmail.com");
+        userpass.add("0102");
         userdebt.add(0);
         userbal.add(1000);
        
