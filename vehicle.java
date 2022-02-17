@@ -51,8 +51,8 @@ class vehicle {
 
     }
     public static void add(){
-        username.add("vinith");
-        userpass.add("1234");
+        username.add("koushick");
+        userpass.add("0102");
     }
     public static void delay(){
         System.out.println("Press 1 to continue");
@@ -252,19 +252,6 @@ class vehicle {
 
             System.out.println("vehicle Alloted :"+(vehicle1+1));
             System.out.println("Booking id :"+bookingid);
-            // for(int y=0;y<10;y++){
-            //     for(int y1=0;y1<7;y1++){
-            //         System.out.print(vehicle[y][y1]+" ");
-                    
-            //     }System.out.println();
-            // }
-            // System.out.println("ws");
-            // for(int y=0;y<3;y++){
-            //     for(int y1=0;y1<7;y1++){
-            //         System.out.print(waitvehicle[y][y1]+" ");
-                    
-            //     }System.out.println();
-            //  }
             bookingid++;
             }else if(vehicle1!=-1 && vehicle2==1){
                 wusername1.add(username.get(i));
@@ -278,13 +265,6 @@ class vehicle {
                 System.out.println("Waitvehicle Alloted :"+(vehicle1+1));
                 System.out.println("Booking id :"+bookingid);
                 bookingid++;
-                // for(int y=0;y<3;y++){
-                //     for(int y1=0;y1<7;y1++){
-                //         System.out.print(waitvehicle[y][y1]+" ");
-                        
-                //     }System.out.println();
-                // }
-                }
             else{
                 System.out.println("vehicle Unavalable");
             }
@@ -347,12 +327,6 @@ class vehicle {
                 }break b;
             }
             allotedvehicle.remove(j);
-            // for(int y=0;y<10;y++){
-            //     for(int y1=0;y1<7;y1++){
-            //         System.out.print(vehicle[y][y1]+" ");
-                    
-            //     }System.out.println();
-            // }
             int ws=0,wl=0;
             a:for(int g=0;g<wstartid.size();g++){
             for(int k=0;k<10;k++){
@@ -404,23 +378,7 @@ class vehicle {
             wallotedvehicle.remove(st);
             wstartid.remove(st);
             wlandingid.remove(st);
-            // for(int y=0;y<10;y++){
-            //     for(int y1=0;y1<7;y1++){
-            //         System.out.print(vehicle[y][y1]+" ");
-                    
-            //     }System.out.println();
-            // }
-            // System.out.println("ws");
-            // for(int y=0;y<3;y++){
-            //     for(int y1=0;y1<7;y1++){
-            //         System.out.print(waitvehicle[y][y1]+" ");
-                    
-            //     }System.out.println();
-            // }
             }
-
-            
-
            }
         }
         delay();
